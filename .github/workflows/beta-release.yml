@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get Merged Pull Request
-        uses: actions-ecosystem/action-get-merged-pull-request@master
+        uses: actions-ecosystem/action-get-merged-pull-request@v1.0.1
         id: getMergedPR
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
